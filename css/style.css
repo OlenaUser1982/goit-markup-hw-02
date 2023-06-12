@@ -1,13 +1,13 @@
-.Web {
+.header-logo {
 background: #4D5AE5;
+font-family: Raleway;    
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+}
+header-studio {
+background: #2E2F42;
 font-family: Raleway;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 21px;
+font-size: 18px;
 }
-.Studio {
-    background: #2E2F42;
-    font-family: Raleway;
-        font-size: 18px;
-        font-weight: 800;
-}
+
