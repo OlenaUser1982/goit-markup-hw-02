@@ -32,32 +32,28 @@ body {
 .header-studio {
   color: #2e2f42;
 }
-.header-link {
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 1.5;
-}
-.nav {
+.nav-link {
   color: var(--title-color);
   font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
-.header-link .nav:hover,
-.header-link .nav:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--nav-color);
 }
 .header-address {
   font-style: normal;
+}
+.address-link {
+  color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address {
-  color: var(--text-color);
-}
-.header-address .address:hover,
-.header-address .address:focus {
+.address:hover,
+.address:focus {
   color: var(--nav-color);
 }
 /*section efective*/
@@ -66,7 +62,6 @@ body {
 }
 
 .title {
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -99,7 +94,6 @@ body {
   color: var(--title-color);
 }
 .plus-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -143,8 +137,6 @@ body {
   color: var(--title-color);
 }
 .team-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -156,8 +148,6 @@ body {
   background-color: var(--title-color);
 }
 .footer-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -187,7 +177,6 @@ body {
   background-color: var(--nav-color);
 }
 .card-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -195,8 +184,6 @@ body {
   color: var(--title-color);
 }
 .card-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
