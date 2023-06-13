@@ -52,8 +52,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address:hover,
-.address:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--nav-color);
 }
 /*section efective*/
